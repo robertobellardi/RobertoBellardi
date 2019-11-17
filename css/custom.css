@@ -5,13 +5,42 @@
     margin-top: 75px;
     margin-bottom: 75px;
 }
-.card{
+
+#aboutMe .card{
     width: 12rem;
+}
+
+#contact .card{
+    width: 7rem;
+}
+
+a.externalLink span{
+    display: none
+}
+a.externalLink:hover span{
+    padding: 3px;
+    display: block;
+    z-index: 100;
+    background-color: #343a40;
+    opacity: 0.75;
+    color: rgba(65,251,49,1);
+    border-style: solid;
+    border-color: #343a40;
+    border-radius: 25px;
+    left: 125px;
+    margin: 10px;
+    width: 100px;
+    position: absolute;
+    top: 30px;
+    text-decoration: none
+}
+
+.card{
     text-align: center;
     border-style: solid;
     border-radius: 25px;
     box-shadow: 10px 5px 5px grey;
-    margin-top: 25px;
+    margin: 25px auto;
 }
 
 .card img,.card div{
@@ -19,10 +48,30 @@
     overflow: hidden;
 }
 
-.arrow:hover{
-    background-color: black;
+#linkMail:hover{
+    cursor: pointer;
 }
 
-.row{
-    margin-bottom: 25px;
+#aboutMe{
+
+}
+
+#contact{
+
+}
+
+/*
+    css footer's area
+*/
+
+#footer{
+    background-color: #343a40;
+}
+
+#footer .row{
+    margin-bottom: 0px;
+}
+
+.row ul{
+    padding-top: 10px;
 }
