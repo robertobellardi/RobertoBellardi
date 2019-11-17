@@ -1,0 +1,28 @@
+/*
+    css center's area
+*/
+#center{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+.card{
+    width: 12rem;
+    text-align: center;
+    border-style: solid;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px grey;
+    margin-top: 25px;
+}
+
+.card img,.card div{
+    padding: 10px;
+    overflow: hidden;
+}
+
+.arrow:hover{
+    background-color: black;
+}
+
+.row{
+    margin-bottom: 25px;
+}
