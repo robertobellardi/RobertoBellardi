@@ -14,7 +14,7 @@ function openMail(){
 function checkOpenMenu(){
     console.log("Entro");
     if(!openMenu){
-        $("#center").css("margin-top","250px");
+        $("#center").css("margin-top","275px");
         openMenu=true;
     }
     else {
