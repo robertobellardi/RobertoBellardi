@@ -1,9 +1,29 @@
+body{
+    font-family: SansSerif;
+}
+/*
+    css header's area
+*/
+
+.navbar{
+    font-size: 25px;
+    font-weight: bold;
+}
+
 /*
     css center's area
 */
 #center{
-    margin-top: 75px;
+    margin-top: 100px;
     margin-bottom: 75px;
+}
+
+.titleContainer{
+    padding-top: 25px;
+    margin: 15px auto;
+    text-align: center;
+    color: black;
+    font-weight: bold;
 }
 
 #aboutMe .card{
@@ -29,7 +49,8 @@ a.externalLink:hover span{
     border-radius: 25px;
     left: 125px;
     margin: 10px;
-    width: 100px;
+    text-align: center;
+    width: auto;
     position: absolute;
     top: 30px;
     text-decoration: none
@@ -37,10 +58,15 @@ a.externalLink:hover span{
 
 .card{
     text-align: center;
-    border-style: solid;
     border-radius: 25px;
-    box-shadow: 10px 5px 5px grey;
+    box-shadow: 10px 5px 10px 5px deepskyblue;
     margin: 25px auto;
+}
+
+.titleCard{
+    font-size: 25px;
+    color: deepskyblue;
+    font-weight: bold;
 }
 
 .card img,.card div{
@@ -52,12 +78,19 @@ a.externalLink:hover span{
     cursor: pointer;
 }
 
-#aboutMe{
-
+.aboutMeContainer{
+    border-radius: 25px;
+    box-shadow: 15px 10px 15px 10px grey;
 }
 
-#contact{
+.contactContainer{
+    margin-top: 50px;
+    border-radius: 25px;
+    box-shadow: 15px 10px 15px 10px grey;
+}
 
+.contactContainer row{
+    padding-bottom: 25px;
 }
 
 /*
@@ -74,4 +107,25 @@ a.externalLink:hover span{
 
 .row ul{
     padding-top: 10px;
+}
+
+.titleUl{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.titleUlColor{
+    color: deepskyblue;
+}
+
+.footerLink{
+    text-decoration: none;
+    color: white;
+}
+
+.footerLink:active,.footerLink:hover{
+    text-decoration: none;
+    color: white;
 }
