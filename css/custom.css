@@ -34,10 +34,11 @@ body{
 
 .up{
     display: inline-block;
+    border-bottom: solid 5px #343a40;
 }
 
 .up:hover{
-    transform: translate(0px,-25px);
+    border-bottom: solid 5px white;
     color: deepskyblue!important;
 }
 
@@ -93,12 +94,9 @@ a.externalLink:hover span{
     margin: 25px auto;
 }
 
-.rotate:hover{
-    /*transform:rotate(360deg);*/
-    transform: scale(1.5,1.5);
-    z-index: 1;
-    transition-duration: 2s;
-    cursor: grab;
+.bigger:hover{
+    box-shadow: 20px 10px 20px 10px mediumslateblue;
+    transition-duration: 1s;
 }
 
 .titleCard{
@@ -168,25 +166,26 @@ a.externalLink:hover span{
     width: auto;
     margin: 5px;
     padding: 5px 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 25px;
     display: inline-block;
 }
 
 .linkLi{
     list-style-type: none;
     text-align: center;
-    padding: 10px 0px;
-    margin: 15px 0; 
+    margin: 15px 0;
 }
 
 .footerLink:hover{
     text-decoration: none;
-    color: deepskyblue;
-    border-style: solid;
-    border-width: 3px;
-    border-color: deepskyblue;
+    color: black;
+    background-color: white;
+    border-color: white;
     border-radius: 25px;
-    transform:scale(2,2);
-    transition-duration: 1s;
+    /*transition-duration: 1s;*/
     
 }
 
