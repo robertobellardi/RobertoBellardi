@@ -32,6 +32,15 @@ body{
     font-weight: bold;
 }
 
+.up{
+    display: inline-block;
+}
+
+.up:hover{
+    transform: translate(0px,-25px);
+    color: deepskyblue!important;
+}
+
 /*
     css center's area
 */
@@ -82,6 +91,14 @@ a.externalLink:hover span{
     border-radius: 25px;
     box-shadow: 10px 5px 10px 5px deepskyblue;
     margin: 25px auto;
+}
+
+.rotate:hover{
+    /*transform:rotate(360deg);*/
+    transform: scale(1.5,1.5);
+    z-index: 1;
+    transition-duration: 2s;
+    cursor: grab;
 }
 
 .titleCard{
@@ -150,29 +167,27 @@ a.externalLink:hover span{
     color: white;
     width: auto;
     margin: 5px;
+    padding: 5px 10px;
+    display: inline-block;
 }
 
 .linkLi{
-    border-style: solid;
-    border-color: black;
     list-style-type: none;
     text-align: center;
     padding: 10px 0px;
-    border-radius: 25px;
-    margin: 15px 0;
-}
-
-.linkLi:hover{
-    text-decoration: none;
-    border-style: solid;
-    border-color: deepskyblue;
-    cursor: pointer;
-
+    margin: 15px 0; 
 }
 
 .footerLink:hover{
     text-decoration: none;
     color: deepskyblue;
+    border-style: solid;
+    border-width: 3px;
+    border-color: deepskyblue;
+    border-radius: 25px;
+    transform:scale(2,2);
+    transition-duration: 1s;
+    
 }
 
 .footerLink:active{
