@@ -95,8 +95,14 @@ a.externalLink:hover span{
 }
 
 .bigger:hover{
-    box-shadow: 20px 10px 20px 10px mediumslateblue;
+    box-shadow: 20px 10px 20px 10px dodgerblue;
     transition-duration: 1s;
+}
+
+.rotate:hover{
+    transform: rotate(360deg);
+    box-shadow: 0 0;
+    transition-duration: 3s;
 }
 
 .titleCard{
