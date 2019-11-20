@@ -50,6 +50,29 @@ body{
     margin-bottom: 75px;
 }
 
+#modifyCss{
+    margin-bottom: 50px;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.myButton{
+    box-shadow: 0 0!important;
+    border-style: solid;
+    border-;
+}
+
+.myButton p{
+    margin: auto auto;
+    padding: 15px 5px;
+}
+
+.mybutton:hover{
+
+}
+
 .titleContainer{
     padding-top: 25px;
     margin: 15px auto;
